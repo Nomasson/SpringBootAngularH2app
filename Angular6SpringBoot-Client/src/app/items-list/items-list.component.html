@@ -1,0 +1,6 @@
+<h1>Items</h1>
+
+<div *ngFor="let item of items | async" style="width: 300px;">
+  <item-details [item]='item'></item-details>
+</div>
+

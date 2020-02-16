@@ -1,0 +1,31 @@
+<div *ngIf="item">
+  <div>
+    <label>Id: </label> {{item.id}}
+  </div>
+  <div>
+    <label>Name: </label> {{item.name}}
+  </div>
+  <div>
+    <label>Amount: </label> {{item.amount}}
+  </div>
+  <div>
+    <label>Inventory: </label> {{item.inventory}}
+  </div>
+
+  <span class="button is-small btn-danger" (click)='deleteItem()'>Delete</span>
+
+  <span class="button is-small btn-success">
+  <form (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="amount">Amount</label>
+      <input type="text" class="form-control" id="amount" required name="amount">
+    </div>
+
+    <button type="submit" class="btn btn-success"(click)='updateAmount()'>Submit</button>
+  </form>
+  </span>
+
+
+  <hr/>
+</div>
