@@ -1,12 +1,10 @@
 package com.noam.controller;
-
 import com.noam.model.Item;
 import com.noam.repo.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,7 +25,6 @@ public class ItemController {
         repository.findAll().forEach(items::add);
         return items;
     }
-
 
     @PostMapping(value = "/items/create")
     public Item postItem(@RequestBody Item item) {
@@ -58,13 +55,5 @@ public class ItemController {
         repository.save(new Item(item.getId(),oldItem.getName(),item.getAmount(), oldItem.getInventory()));
         return new ResponseEntity<>("Item has been updated!", HttpStatus.OK);
     }
-/*    @PutMapping("/items/{id}")
-    public ResponseEntity<String> updateItem(@PathVariable("id") long id,@PathVariable("newamount") int newamount) {
-        System.out.println("Update Item with ID = " + id + "...");
-        List<Item> items = repository.findById(id);
-        Item oldItem = items.get(0);
-        repository.save(new Item(oldItem.getId(),oldItem.getName(),newamount,oldItem.getInventory()));
-        return new ResponseEntity<>("Item has been updated!", HttpStatus.OK);
-    }*/
 
 }
