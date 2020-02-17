@@ -27,5 +27,6 @@ export class ItemDetailsComponent implements OnInit {
         },
         error => console.log(error));
   }
+  }
 
-}
+

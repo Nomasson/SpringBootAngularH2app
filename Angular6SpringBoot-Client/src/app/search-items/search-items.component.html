@@ -1,6 +1,6 @@
 <h3>Find By Id</h3>
 <div style="width: 300px;">
-  <form (ngSubmit)="onSubmit()">
+  <form ngNativeValidate (ngSubmit)="onSubmit()">
     <div class="form-group">
       <label>Id</label>
       <input type="text" class="form-control" id="id" required [(ngModel)]="id" name="id">

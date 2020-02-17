@@ -1,19 +1,24 @@
 <h3>Create Item</h3>
 <div [hidden]="submitted" style="width: 300px;">
-  <form (ngSubmit)="onSubmit()">
+  <form ngNativeValidate (ngSubmit)="onSubmit() ">
     <div class="form-group">
+
+      <div class="form-group">
+        <label for="id">Id</label>
+        <input type="text" class="form-control" id="id" [(ngModel)]="item.id" name="id" required>
+      </div>
       <label for="name">Name</label>
-      <input type="text" class="form-control" id="name" required [(ngModel)]="item.name" name="name">
+      <input type="text" class="form-control" id="name" [(ngModel)]="item.name" name="name" required>
     </div>
 
     <div class="form-group">
       <label for="amount">Amount</label>
-      <input type="text" class="form-control" id="amount" required [(ngModel)]="item.amount" name="amount">
+      <input type="text" class="form-control" id="amount" [(ngModel)]="item.amount" name="amount" required>
     </div>
 
     <div class="form-group">
       <label for="inventory">Inventory</label>
-      <input type="text" class="form-control" id="inventory" required [(ngModel)]="item.inventory" name="inventory">
+      <input type="text" class="form-control" id="inventory" [(ngModel)]="item.inventory" name="inventory" required>
     </div>
 
     <button type="submit" class="btn btn-success">Submit</button>

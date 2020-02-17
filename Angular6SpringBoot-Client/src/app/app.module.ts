@@ -9,6 +9,8 @@ import { ItemsListComponent } from './items-list/items-list.component';
 import { SearchItemsComponent } from './search-items/search-items.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { UpdateItemComponent } from './update-item/update-item.component';
+
 
 
 @NgModule({
@@ -17,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     CreateItemComponent,
     ItemDetailsComponent,
     ItemsListComponent,
+    UpdateItemComponent,
     SearchItemsComponent,
   ],
   imports: [

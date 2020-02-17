@@ -19,12 +19,12 @@ export class ItemService {
     return this.http.post(`${this.baseUrl}` + `/create`, item);
   }
 
-  updateItem(id: number, value: any): Observable<Object> {
-    return this.http.put(`${this.baseUrl}/${id}`, value);
-  }
-
   deleteItem(id: number): Observable<any> {
     return this.http.delete(`${this.baseUrl}/${id}`, { responseType: 'text' });
+  }
+
+  updateItem(item: Object): Observable<Object> {
+    return this.http.post(`${this.baseUrl}` + `/update`, item);
   }
 
   getItemsList(): Observable<any> {

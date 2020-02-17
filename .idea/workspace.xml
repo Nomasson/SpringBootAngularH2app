@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec2fdabb-897c-43a4-aeef-817419333963" name="Default Changelist" comment="" />
+    <list default="true" id="ec2fdabb-897c-43a4-aeef-817419333963" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/update-item/update-item.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/update-item/update-item.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/update-item/update-item.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/update-item/update-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/create-item/create-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/create-item/create-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/item-details/item-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/item-details/item-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/item-details/item-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/item-details/item-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/item.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/item.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/search-items/search-items.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/search-items/search-items.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noam/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noam/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/noam/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/noam/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/noam/SpringBootRestApIsH2Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/noam/SpringBootRestApIsH2Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/noam/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/noam/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/noam/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/noam/model/Item.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,6 +49,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XtXRA2AcaXuQWiU8okQKETlA7U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Angular6SpringBoot-Client/src/app/update-item" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -93,25 +119,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581872328323" />
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1581889787160">
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1581933097675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581889787160" />
-    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1581889787160">
+    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581933097675" />
+    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1581933097675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581889787160" />
-    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1581889787160">
+    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581933097675" />
+    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1581933097675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581889787160" />
-    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1581889787160">
+    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581933097675" />
+    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1581933097675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581889787160" />
-    <state x="461" y="144" width="799" height="536" key="find.popup" timestamp="1581887546446">
+    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581933097675" />
+    <state x="683" y="165" width="808" height="536" key="find.popup" timestamp="1581933220741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="144" width="799" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581887546446" />
+    <state x="683" y="165" width="808" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581933220741" />
   </component>
 </project>
